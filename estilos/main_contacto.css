@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*
+body main .contenedor {
+	width: 100%;
+}
+
+body main #fondo {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-image: url("../imgs/carcel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	object-fit: cover;
+}
+
+body main .contenedor .banner {
+	width: 70%;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+#fondo:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+body main .contenedor .banner h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	letter-spacing: 6px; 
+	padding: 85px 0px;
+	font-weight: 600;
+	margin: 0;
+}*/
+
+/*body main .contenedor {
+	width: 100%;
+	top: 85px;
+	margin-bottom: 55px;
+} /*Adición*/
+
+body main {
+	margin-top: 85px;
+}
+
+body main #fondo {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-image: url("../imgs/justicia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+}
+
+body main .contenedor .banner {
+	width: 70%;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+#fondo:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+body main .contenedor .banner h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px; /*50*/
+	color: #fff;
+	text-align: center;
+	position: relative;
+	letter-spacing: 6px; 
+	padding: 85px 0px;
+}
+
+body section .contenedor {
+	width: 100%;
+	padding: 60px 0;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body section .contenedor form {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	width: 40%;
+	height: auto;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: rgba(0,0,0,0.6) 0px 0px 50px;
+}
+
+body section .contenedor form input {
+	border: none;
+	resize: none;
+	outline: none;
+	padding: 15px 0px;
+	width: 80%;
+	margin: 20px 0px;
+	transition: all 300ms;
+	border-bottom: 1px solid rgba(0,0,0,0.2); /*  <---  Sí usamos lo que está aquí el textarea se verá como un 
+	input normal (otro diseño)*/
+}
+
+body section .contenedor form textarea {
+	outline: none;
+	width: 80%;
+	margin: 20px 0px;
+	padding: 15px;
+	/*resize: none; <----- Esto es para que no cambie su tamaño (el textarea)*/
+	min-height: 150px;
+	max-height: 250px;
+	min-width: 80%;
+	max-width: 80%;
+}
+
+body section .contenedor form input:focus,
+body section .contenedor form textarea:focus {
+	border-bottom-color: #610061;
+}
+
+body section .contenedor form #boton {
+	border: none;
+	outline: none;
+	background-color: rebeccapurple;
+	padding: 15px;
+	width: 80%;
+	color: #fff;
+	letter-spacing: 2px;
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 300ms;
+}
+
+body section .contenedor form #boton:hover {
+	transform: scale(1.08);
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+
+}
+
+body section .contenedor .design {
+	width: 35%;
+	height: auto;
+	box-shadow: rgba(0,0,0,0.6) 50px 0px 50px;
+	background-repeat: repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+body section .contenedor .design a {
+	background:crimson;
+	padding: 15px;
+	width: 40%;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 40px 0;
+}
+
+@media screen and (max-width: 900px) {
+	body section .contenedor {
+		flex-direction: column;
+	}
+
+	body section .contenedor form {
+		width: 90%;
+	}
+
+	body section .contenedor .design {
+		width: 90%;
+		border: 1px solid #000;
+		box-shadow: none;	
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	body main .contenedor .banner h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 32px; /*50*/
+		letter-spacing: 0px; 
+	}
+
+    body main .contenedor .banner {
+		width: 95%;
+	}
+}
+
+/*body main article h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	margin-bottom: 20px;
+	color: #333;
+} recycle*/

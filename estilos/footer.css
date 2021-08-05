@@ -1,0 +1,94 @@
+body footer {
+	background-color: #0E1A33;
+	width: 100%;
+}
+
+body footer .contenedor {
+	width: 85%;
+	margin: auto;
+	padding: 60px 0px;
+	color: #fff;
+	display: flex;
+	flex-flow: row;
+	font-family: arial;
+	justify-content: space-around;
+}
+
+body footer .contenedor .direccion p {
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+/*body footer .contenedor .direccion .telefono {
+	margin-top: 35px;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}*/
+
+body footer .contenedor .direccion a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 35px;
+	font-size: 22px;
+	color: #fff;
+}
+
+body footer .contenedor .direccion .icono {
+	margin-left: 12px;
+}
+
+body footer .contenedor .direccion a:hover {
+	color: #2AC54D;
+	transition: all ease .6s;	
+}
+
+body footer .contenedor .direccion h4 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 22px;
+	font-size: 20px;
+}
+
+body footer .contenedor .mapa {
+	border-left: 1px #EC6F38 solid;
+	padding-left: 80px;
+}
+
+body footer .contenedor .mapa h5 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 1200px) {
+	body footer .contenedor {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	body footer .contenedor .direccion {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 85px;
+	}
+
+	body footer .contenedor .direccion p{
+		text-align: center;
+	}
+
+	body footer .contenedor .mapa {
+		width: 100%;
+		border: none;
+		text-align: center;
+		padding: 0;
+	}
+
+	body footer .contenedor .mapa iframe {
+		width: 100%;
+	}
+}

@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body main .contenedor {
+	width: 100%;
+	top: 85px;
+	margin-bottom: 55px;
+} /*Adición*/
+
+body main #fondo {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-image: url("../imgs/amp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	object-fit: cover;
+}
+
+body main .contenedor .banner {
+	width: 70%;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+#fondo:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+body main .contenedor .banner h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px; /*50*/
+	color: #fff;
+	text-align: center;
+	position: relative;
+	letter-spacing: 6px; 
+	padding: 85px 0px;
+}
+
+body main article {
+	padding: 60px 0px;
+	width: 80%;
+	margin: auto;
+}
+
+body main article h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+body main article p {
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body main .boton {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 80px 0;
+}
+
+body main .boton a {
+	background-color: #EC6F38;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 25px;
+	border-radius: 5px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+}
+
+body main .boton a:hover {
+	background-color: #2EC650;
+	transition: all ease .6s;
+}
+
+@media screen and (max-width: 700px) {
+	body main article h2 {
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 19px;
+		margin-bottom: 20px;
+		color: #333;
+	}
+
+	body main .contenedor .banner h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 32px; /*50*/
+		letter-spacing: 4px; 
+	}
+}
+
