@@ -13,7 +13,8 @@ header {
 	/*background-color: #EC6F38;*/
 	/*background-color: #333;*/
 	/*color: #fff;*/
-	background-color: #fff;
+	/* background-color: #fff; */
+	background: rgba(255,255,255,.8) linear-gradient(to top, transparent 0%, rgba(255,255,255,1) 100%) repeat scroll 0 0;
 	color: #000;
 	position: fixed;
 	top: 0;
@@ -35,9 +36,10 @@ header h1 {
 }
 
 header .contenedor  .logo {
-	width: 16%;
+	width: 30%;
 }
 
 header .contenedor .logo img {
-	width: 100%;
+	height: 70px;
+	width: auto;
 }
