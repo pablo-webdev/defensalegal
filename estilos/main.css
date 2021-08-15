@@ -212,7 +212,6 @@ body section .personal .contenedor-personal .personal {
 body section .personal .contenedor-personal .personal .foto {
 	width: 20%;
 	height: 100%;
-	background: skyblue;
 }
 
 body section .personal .contenedor-personal h3 {
@@ -335,18 +334,17 @@ body section .personal .contenedor-personal .cuatro p {
 	}
 
 	body section .personal .contenedor-personal .personal .foto {
-	width: 30%;
-	margin: auto;
-	height: 200px;
-	border: none;
+	width: 22%;
 	margin: 20px auto;
 	}
 
 	body section .personal .contenedor-personal .personal .foto img {
 	width: 100%;
 	height: 100%;
+	border-radius: 50%;
+	border: 5px solid rgba(0,0,0,0.3);
 	vertical-align: top;
-	object-fit: cover;
+	object-fit: contain;
 	}
 
 	body section .personal .contenedor-personal .personal {
@@ -430,4 +428,30 @@ body section .personal .contenedor-personal .cuatro p {
 		margin-bottom: 15px;
 		color: #EC6F38;	
 	}
+}
+
+@media screen and (max-width: 650px) {
+	body section .personal .contenedor-personal .personal .foto {
+		width: 30%;
+		margin: 20px auto;
+		}
+	
+		body section .personal .contenedor-personal .personal .foto img {
+		width: 100%;
+		height: 100%;
+		border: 4px solid rgba(0,0,0,0.3);
+		}
+}
+
+@media screen and (max-width: 400px) {
+	body section .personal .contenedor-personal .personal .foto {
+		width: 45%;
+		margin: 20px auto;
+		}
+	
+		body section .personal .contenedor-personal .personal .foto img {
+		width: 100%;
+		height: 100%;
+		border: 4px solid rgba(0,0,0,0.3);
+		}
 }
