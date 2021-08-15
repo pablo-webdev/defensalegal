@@ -1,0 +1,25 @@
+.top_arrows {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    top: 50%;
+}
+
+.top_arrows a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 25px;
+}
+
+@media screen and (max-width: 400px) {
+   .top_arrows {
+       top: 70%;
+   }
+}
+}
