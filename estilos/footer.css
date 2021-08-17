@@ -1,3 +1,6 @@
+@import url("sass/rights.css");
+@import url("sass/day-night.css");
+
 body footer {
 	background-color: #0E1A33;
 	width: 100%;
@@ -6,7 +9,7 @@ body footer {
 body footer .contenedor {
 	width: 85%;
 	margin: auto;
-	padding: 60px 0px;
+	padding: 60px 0 0 0; 
 	color: #fff;
 	display: flex;
 	flex-flow: row;

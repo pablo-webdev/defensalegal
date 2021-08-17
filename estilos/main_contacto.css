@@ -1,3 +1,6 @@
+@import url("sass/day-night.css");
+@import url("sass/rights.css");
+
 * {
 	margin: 0;
 	padding: 0;

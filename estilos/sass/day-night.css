@@ -1,0 +1,184 @@
+body.dark {
+  background: #111111;
+}
+
+body.dark main article h2,
+body.dark main article h3,
+body.dark main article p {
+  color: #fff;
+}
+
+body.dark #contenido {
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  background: #111111;
+  color: #fff;
+}
+
+body.dark #contenido p {
+  color: #fff;
+}
+
+body.dark #contenido .servicio {
+  background: #222222;
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+}
+
+body.dark #contenido .servicio h2 {
+  color: #FEFEFE;
+}
+
+body.dark #contenido .galeria {
+  background: transparent;
+}
+
+body.dark #contenido .galeria .item {
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  border: 3px solid rgba(98, 49, 148, 0.5);
+}
+
+body.dark section {
+  background: #222222;
+}
+
+body.dark header {
+  background: #0E1A33;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark header .menu {
+  background: #0E1A33;
+}
+
+body.dark header .menu a {
+  color: #fff;
+}
+
+body.dark header .icon-menu {
+  color: #fff;
+}
+
+section .contenedor #formulario {
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+}
+
+body.dark section .contenedor #formulario {
+  background: #0E1A33;
+}
+
+body.dark section .contenedor #formulario input {
+  background: #0E1A33;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+body.dark section .contenedor #formulario input:focus {
+  border-bottom: 1px solid #fff;
+  background: #C8C8C8;
+  color: #611194;
+}
+
+section .contenedor #formulario textarea {
+  background: rgba(255, 255, 255, 0.7);
+  color: #611194;
+}
+
+section .contenedor #formulario textarea:focus {
+  background: #C8C8C8;
+}
+
+section .contenedor #formulario #boton {
+  background: #623194;
+  border: none;
+}
+
+body.dark .contenedor-personal #lic, body.dark
+.contenedor-personal #civil {
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  background: #222222;
+}
+
+body.dark .contenedor-personal #lic p,
+body.dark .contenedor-personal #lic h3, body.dark
+.contenedor-personal #civil p,
+body.dark
+.contenedor-personal #civil h3 {
+  color: #fff;
+}
+
+.toggle {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #343d5b;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+  margin: 0 0 0 10px;
+}
+
+.toggle::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #F1F1F1;
+  top: 0;
+  bottom: unset;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.toggle.active {
+  background: orange;
+  color: #000;
+}
+
+.toggle.active::after {
+  right: 0;
+  left: unset;
+  top: unset;
+  bottom: 0;
+}
+
+.toggle span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+footer .toggle {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .toggle {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    top: 200px;
+    left: 110px;
+  }
+}
+/*# sourceMappingURL=day-night.css.map */

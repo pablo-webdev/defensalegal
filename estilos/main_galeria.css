@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-body main .contenedor {
+body main #fondo {
 	width: 100%;
 	top: 85px;
 	margin-bottom: 55px;

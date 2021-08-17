@@ -1,0 +1,139 @@
+$negro: #111111
+$blanco: #FEFEFE
+$grisOscuro: #222222
+$grisClaro: #C8C8C8
+$grisClaroHover: #ACABAB
+$azul: #0E1A33
+$azulHover: #254BE6
+
+$sombraDark: 10px 10px 20px rgba(170,170,170,.16)
+$sombraLight: 10px 10px 20px rgba(0,0,0,.16)
+
+body
+	&.dark 
+		background: $negro
+		main
+			article
+				h2,
+				h3, 
+				p
+					color: #fff 
+
+#contenido
+	body.dark &
+		box-shadow: $sombraDark
+		background: $negro
+		color: #fff
+		p
+			color: #fff
+		.servicio 
+			background: $grisOscuro
+			box-shadow: $sombraDark
+			h2
+				color: $blanco
+		.galeria 
+			background: transparent
+			.item
+				box-shadow: $sombraDark
+				border: 3px solid rgba(98, 49, 148, .5 );
+
+
+section
+	body.dark & 
+		background: $grisOscuro
+
+header	
+	body.dark &
+		background: $azul
+		box-shadow: $sombraLight
+		.menu
+			background: $azul
+			a
+				color: #fff
+		.icon-menu 
+			color: #fff 
+
+section
+	.contenedor
+		#formulario
+			box-shadow: $sombraDark
+			body.dark &
+				background: $azul
+			input,
+				body.dark & 
+					background: $azul
+					color: #fff
+					border-bottom: 1px solid rgba(255,255,255,.9)
+					&:focus
+						border-bottom: 1px solid #fff
+						background: $grisClaro
+						color: #611194
+			textarea
+				background: rgba(255, 255, 255,.7 )
+				color: #611194
+				&:focus
+					background: $grisClaro
+			#boton
+				background: #623194
+				border: none
+
+.contenedor-personal
+	#lic,
+	#civil
+		body.dark &
+			box-shadow: $sombraDark
+			background: $grisOscuro
+			p,
+			h3
+				color: #fff
+
+.toggle 
+	flex-direction: column 
+	background: #343d5b
+	border-radius: 1000px
+	border: none
+	position: relative
+	cursor: pointer
+	display: flex
+	outline: none
+	margin: 0 0 0 10px
+	&::after 
+		content: ''
+		display: block
+		width: 30px
+		height: 30px
+		position: absolute
+		background: #F1F1F1
+		top: 0
+		bottom: unset
+		left: 0
+		right: unset
+		border-radius: 100px
+		transition: .3s ease all
+		box-shadow: 0 0 2px 2px rgba(0,0,0,.2)
+	&.active 
+		background: orange
+		color: #000
+		&::after 
+			right: 0
+			left: unset
+			top: unset
+			bottom: 0
+	span 
+		width: 30px
+		height: 30px
+		line-height: 30px
+		display: block
+		background: none
+		color: #fff
+
+footer
+	.toggle
+		display: none
+
+
+@media screen and (max-width: 1024px) 
+	.toggle
+		flex-direction: row
+		top: 200px
+		left: 110px
