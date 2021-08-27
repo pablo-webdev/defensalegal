@@ -61,6 +61,14 @@ body.dark header .icon-menu {
   color: #fff;
 }
 
+body.dark header .logo #negro {
+  display: none;
+}
+
+body.dark header .logo #blanco {
+  display: block;
+}
+
 section .contenedor #formulario {
   -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
           box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
