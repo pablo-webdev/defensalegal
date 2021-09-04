@@ -99,6 +99,15 @@ body main .contenedor .banner h1 {
 	letter-spacing: 6px; 
 }
 
+body main .contenedor .banner .anima .typed i{
+	font-style: normal;
+	font-size: 20px;	
+} 
+
+/* .typed-cursor {
+	font-size: 0px;
+} */
+
 body section {
 	background-image: url("../imgs/tiles.png");
 }
@@ -430,6 +439,10 @@ body section .personal .contenedor-personal .cuatro p {
 		text-align: center;
 		margin-bottom: 15px;
 		color: #EC6F38;	
+	}
+
+	body main .contenedor .banner .anima {
+		margin-top: -18px !important;
 	}
 }
 
