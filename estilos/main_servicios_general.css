@@ -9,7 +9,7 @@
 
 body main .contenedor {
 	width: 100%;
-	top: 85px;
+	top: 100px; /*NO SE QUÉ MOVÍ CON ESTO*/
 	margin-bottom: 55px;
 } /*Adición*/
 
@@ -55,7 +55,7 @@ body main .contenedor .banner h1 {
 }
 
 body main article {
-	padding: 60px 0px;
+	padding: 180px 80px 80px 80px;
 	width: 80%;
 	margin: auto;
 }
@@ -63,7 +63,8 @@ body main article {
 body main article h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 19px;
-	margin-bottom: 20px;
+	margin-bottom: 80px;
+	text-align: center;
 	color: #333;
 }
 
@@ -98,11 +99,17 @@ body main .boton a:hover {
 }
 
 @media screen and (max-width: 700px) {
+	body main article {
+		padding: 180px 0px 80px 0px;
+		width: 80%;
+		margin: auto;
+	}
+
 	body main article h2 {
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 19px;
-		margin-bottom: 20px;
+		margin-bottom: 60px;
 		color: #333;;
 	}
 
