@@ -20,7 +20,7 @@ span {
 
 body main .contenedor {
 	width: 100%;
-	top: 85px;
+	top: 100px;
 	margin-bottom: 55px;
 } /*Adición*/
 
@@ -28,7 +28,7 @@ body main .contenedor {
 	width: 100%;
 	height: 700px;
 	overflow: hidden;
-	background-image: url("../imgs/bg.jpg");
+	background-image: url("../imgs/bg.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -93,15 +93,30 @@ body main .contenedor .banner .boton a:hover {
 
 body main .contenedor .banner h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
+	font-size: 70px;
 	color: #fff;
 	position: relative;
-	letter-spacing: 6px; 
+	letter-spacing: 6px;
+}
+
+body main .contenedor .banner .titulado {
+	margin-bottom: 30px;
+}
+
+body main .contenedor .banner .anima .fijo {
+	font-size: 25px;
+	font-style: normal;
+
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
 }
 
 body main .contenedor .banner .anima .typed i{
 	font-style: normal;
 	font-size: 20px;	
+	font-style: italic;
 } 
 
 /* .typed-cursor {
@@ -122,7 +137,8 @@ body section .contenedor {
 }
 
 body section .contenedor .titular {
-	margin-bottom: 15px;
+	margin-top: 180px;
+	margin-bottom: 120px;
 	letter-spacing: 5px;
 	font-size: 28px;
 	font-weight: 700;
@@ -131,6 +147,7 @@ body section .contenedor .titular {
 
 body section .contenedor .intro {
 	font-size: 18px;
+	margin-bottom: 120px;
 }
 
 body section .contenedor p {
@@ -146,7 +163,8 @@ body section .contenedor p {
 body section .historia {
 	width: 85%;
 	margin: auto;
-	margin-top: 80px;	
+	margin-top: 80px;
+	margin-bottom: 220px;	
 	display: flex;
 }
 
@@ -197,7 +215,8 @@ body section .bloque {
 }
 
 body section .titulo {
-	margin-bottom: 80px;
+	margin-top: 80px;
+	margin-bottom: 100px;
 	letter-spacing: 5px;
 	font-size: 28px;
 	font-weight: 700;
@@ -205,6 +224,7 @@ body section .titulo {
 }
 
 body section .personal .contenedor-personal {
+	margin-bottom: 150px;
 	width: 100;
 	display: flex;
 	justify-content: space-between;
