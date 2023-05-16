@@ -104,13 +104,19 @@ body main .contenedor .banner .titulado {
 }
 
 body main .contenedor .banner .anima .fijo {
-	font-size: 25px;
+	font-size: 32px;
 	font-style: normal;
-
+	letter-spacing: 4px;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-style: italic;
+	line-height: 30px;
+}
+
+body main .contenedor .banner .anima .fijo .apear {
+	font-size: 20px;
+	letter-spacing: 0px;
 }
 
 body main .contenedor .banner .anima .typed i{
@@ -232,6 +238,10 @@ body section .personal .contenedor-personal {
 	align-items: center;
 }
 
+body section .personal .contenedor-personal .nombre {
+	margin-bottom: 15px;
+}
+
 body section .personal .contenedor-personal .personal {
 	width: 100%;
 	margin-bottom: 50px;
@@ -317,20 +327,29 @@ body section .personal .contenedor-personal .cuatro p {
 }
 
 @media screen and (max-width: 750px){
-	body main .contenedor .banner h1 {
+	/* body main .contenedor .banner h1 {
 		font-family: 'Montserrat', sans-serif;
-		font-size: 32px; /*50*/
+		font-size: 32px; /*50
 		letter-spacing: 1px; 
 		font-weight: 700;
-	}
+	} */
 	
 	body main .contenedor .banner {
-		width: 85%;
+		width: 90%;
+	}
+
+	body main .contenedor .banner h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 60px;
+		line-height: 46px;
+		color: #fff;
+		position: relative;
+		letter-spacing: 6px;
 	}
 	
 	body section .contenedor .titular {
-		letter-spacing: 1px;
-		font-size: 20px;
+		letter-spacing: 5px;
+		font-size: 28px;
 		font-weight: 700;
 	}
 
@@ -338,12 +357,12 @@ body section .personal .contenedor-personal .cuatro p {
 		font-size: 16px;
 		line-height: 20px;
 		text-align: center;
-		width: 100%;
+		width: 90%;
 		padding: 20px;
 	}
 
 	body section .contenedor p {
-		width: 85%;
+		width: 90%;
 		color: #0D0D0D;
 		text-align: center;
 		font-family: 'Open Sans', sans-serif;
@@ -355,6 +374,15 @@ body section .personal .contenedor-personal .cuatro p {
 	body .personal {
 		display: flex;
 		flex-direction: column;
+	}
+
+	body section .titulo {
+		margin-top: 80px;
+		margin-bottom: 100px;
+		letter-spacing: 1px;
+		font-size: 28px;
+		font-weight: 700;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	body section .personal {
@@ -388,7 +416,8 @@ body section .personal .contenedor-personal .cuatro p {
 	body section .personal .contenedor-personal .personal p {
 		text-align: justify;
 		padding: 20px;
-		width: 100%;
+		width: 90%;
+		margin-bottom: 20px;
 	}
 
 	body section .personal .contenedor-personal h3 {
@@ -479,6 +508,33 @@ body section .personal .contenedor-personal .cuatro p {
 		}
 }
 
+@media screen and (max-width: 550px) {
+	body main .contenedor .banner h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 40px;
+		line-height: 26px;
+		color: #fff;
+		position: relative;
+		letter-spacing: 4px;
+	}
+
+	body main .contenedor .banner .anima .fijo {
+		font-size: 22px;
+		font-style: normal;
+		letter-spacing: 2px;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-style: italic;
+		line-height: 22px;
+	}
+
+	body main .contenedor .banner .anima .fijo .apear {
+		font-size: 16px;
+		letter-spacing: 0px;
+	}
+}
+
 @media screen and (max-width: 400px) {
 	body section .personal .contenedor-personal .personal .foto {
 		width: 45%;
@@ -489,6 +545,31 @@ body section .personal .contenedor-personal .cuatro p {
 		width: 100%;
 		height: 100%;
 		border: 4px solid rgba(0,0,0,0.3);
+		}
+
+		body main .contenedor .banner h1 {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 32px;
+			line-height: 22px;
+			color: #fff;
+			position: relative;
+			letter-spacing: 6px;
+		}
+
+		body main .contenedor .banner .anima .fijo {
+			font-size: 22px;
+			font-style: normal;
+			letter-spacing: 2px;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-family: 'Montserrat', sans-serif;
+			font-style: italic;
+			line-height: 22px;
+		}
+
+		body main .contenedor .banner .anima .fijo .apear {
+			font-size: 16px;
+			letter-spacing: 0px;
 		}
 }
 
