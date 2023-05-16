@@ -15,7 +15,8 @@ body main {
 span {
 	font-weight: 600;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Gelasio', serif;
 }
 
 body main .contenedor {
@@ -92,7 +93,9 @@ body main .contenedor .banner .boton a:hover {
 }
 
 body main .contenedor .banner h1 {
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Gelasio', serif;
+	font-weight: 700;
 	font-size: 70px;
 	color: #fff;
 	position: relative;
@@ -109,12 +112,13 @@ body main .contenedor .banner .anima .fijo {
 	letter-spacing: 4px;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gelasio', serif;
 	font-style: italic;
 	line-height: 30px;
 }
 
 body main .contenedor .banner .anima .fijo .apear {
+	font-family: 'Gelasio', serif;
 	font-size: 20px;
 	letter-spacing: 0px;
 }
@@ -148,7 +152,7 @@ body section .contenedor .titular {
 	letter-spacing: 5px;
 	font-size: 28px;
 	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gelasio', serif;
 }
 
 body section .contenedor .intro {
@@ -226,7 +230,7 @@ body section .titulo {
 	letter-spacing: 5px;
 	font-size: 28px;
 	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gelasio', serif;
 }
 
 body section .personal .contenedor-personal {
