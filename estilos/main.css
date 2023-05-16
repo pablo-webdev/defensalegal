@@ -343,7 +343,7 @@ body section .personal .contenedor-personal .cuatro p {
 	}
 
 	body main .contenedor .banner h1 {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Gelasio', serif;
 		font-size: 60px;
 		line-height: 46px;
 		color: #fff;
@@ -386,7 +386,7 @@ body section .personal .contenedor-personal .cuatro p {
 		letter-spacing: 1px;
 		font-size: 28px;
 		font-weight: 700;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Gelasio', serif;
 	}
 
 	body section .personal {
@@ -514,7 +514,7 @@ body section .personal .contenedor-personal .cuatro p {
 
 @media screen and (max-width: 550px) {
 	body main .contenedor .banner h1 {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Gelasio', serif;
 		font-size: 40px;
 		line-height: 26px;
 		color: #fff;
@@ -528,7 +528,7 @@ body section .personal .contenedor-personal .cuatro p {
 		letter-spacing: 2px;
 		font-weight: 600;
 		text-transform: uppercase;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Gelasio', serif;
 		font-style: italic;
 		line-height: 22px;
 	}
@@ -552,7 +552,7 @@ body section .personal .contenedor-personal .cuatro p {
 		}
 
 		body main .contenedor .banner h1 {
-			font-family: 'Montserrat', sans-serif;
+			font-family: 'Gelasio', serif;
 			font-size: 32px;
 			line-height: 22px;
 			color: #fff;
@@ -566,7 +566,7 @@ body section .personal .contenedor-personal .cuatro p {
 			letter-spacing: 2px;
 			font-weight: 600;
 			text-transform: uppercase;
-			font-family: 'Montserrat', sans-serif;
+			font-family: 'Gelasio', serif;
 			font-style: italic;
 			line-height: 22px;
 		}
