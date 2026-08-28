@@ -1,262 +1,204 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Galería de trabajo y trayectoria - Servicios Legales S.C.L.C."
-    />
-    <title>Galería | Servicios Legales S.C.L.C.</title>
 
-    <link rel="shortcut icon" href="imgs/favicon/icon.ico" />
-    <link rel="stylesheet" href="estilos/general.css" />
-    <link rel="stylesheet" href="estilos/galeria.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Galería de trabajo y trayectoria - Servicios Legales S.C.L.C." />
+  <title>Galería | Servicios Legales S.C.L.C.</title>
 
-    <!-- Tipografías -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="shortcut icon" href="imgs/favicon/icon.ico" />
+  <link rel="stylesheet" href="estilos/general.css" />
+  <link rel="stylesheet" href="estilos/galeria.css" />
 
-    <!-- FontAwesome 6 -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- BOTÓN FLOTANTE WHATSAPP -->
-    <a
-      href="https://wa.me/+529671666622"
-      class="wsp-float"
-      target="_blank"
-      title="Consulta Legal Vía WhatsApp"
-    >
-      <i class="fa-brands fa-whatsapp"></i>
-    </a>
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
 
-    <!-- HEADER / CABECERA -->
-    <header>
-      <div class="contenedor">
-        <div class="logo">
-          <img
-            src="imgs/logo.png"
-            alt="Servicios Legales SCLC Logo"
-            id="negro"
-          />
-          <img
-            src="imgs/logo-wh.png"
-            alt="Servicios Legales SCLC Logo"
-            id="blanco"
-          />
-        </div>
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5Z5XSEJZM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-        <input type="checkbox" id="burger" />
-        <label class="icon-menu" for="burger"
-          ><i class="fa-solid fa-bars"></i
-        ></label>
+    gtag('config', 'G-B5Z5XSEJZM');
+  </script>
+</head>
 
-        <nav class="menu">
-          <a href="index.html">Inicio</a>
-          <a href="servicios.html">Servicios</a>
-          <a href="galeria.html" class="active">Galería</a>
-          <a href="contacto.html">Contacto</a>
-          <button class="toggle" id="toggle" title="Cambiar tema">
-            <span><i class="fa-solid fa-sun"></i></span>
-            <span><i class="fa-solid fa-moon"></i></span>
-          </button>
-        </nav>
+<body>
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a href="https://wa.me/+529671666622" class="wsp-float" target="_blank" title="Consulta Legal Vía WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- HEADER / CABECERA -->
+  <header>
+    <div class="contenedor">
+      <div class="logo">
+        <img src="imgs/logo.png" alt="Servicios Legales SCLC Logo" id="negro" />
+        <img src="imgs/logo-wh.png" alt="Servicios Legales SCLC Logo" id="blanco" />
       </div>
-    </header>
 
-    <!-- BANNER DE LA PÁGINA -->
-    <section class="banner-pagina">
-      <div class="contenedor">
-        <h1>NUESTRO TRABAJO</h1>
-        <p>
-          Conozca nuestras instalaciones, acervo jurídico y trayectoria
-          profesional en imágenes.
-        </p>
-      </div>
-    </section>
+      <input type="checkbox" id="burger" />
+      <label class="icon-menu" for="burger"><i class="fa-solid fa-bars"></i></label>
 
-    <!-- GRILLA DE GALERÍA -->
-    <section class="seccion-galeria">
-      <div class="contenedor">
-        <div class="grid-galeria">
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/1-x.jpg"
-            data-caption="Reconocimientos y premios"
-          >
-            <img src="imgs/gallery/1-x.jpg" alt="Reconocimientos y premios" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/2.jpg"
-            data-caption="Análisis de expedientes"
-          >
-            <img src="imgs/gallery/2.jpg" alt="Análisis de expedientes" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/1.jpg"
-            data-caption="Instalaciones del Despacho"
-          >
-            <img src="imgs/gallery/1.jpg" alt="Instalaciones del Despacho" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/3.jpg"
-            data-caption="Preparación Constante"
-          >
-            <img src="imgs/gallery/3.jpg" alt="Preparación Constante" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/5.jpg"
-            data-caption="Material Jurídico"
-          >
-            <img src="imgs/gallery/5.jpg" alt="Material Jurídico" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/5-x.jpg"
-            data-caption="Nuestros clientes"
-          >
-            <img src="imgs/gallery/5-x.jpg" alt="Nuestros clientes" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/docencia.jpg"
-            data-caption="Docencia"
-          >
-            <img src="imgs/gallery/docencia.jpg" alt="Docencia" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/palacio.jpg"
-            data-caption="Experiencia en litigios"
-          >
-            <img src="imgs/gallery/palacio.jpg" alt="Experiencia en litigios" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-
-          <div
-            class="item-galeria"
-            data-src="imgs/gallery/9.jpg"
-            data-caption="Trabajo en Oficina"
-          >
-            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trabajo en Oficina" />
-            <div class="overlay-galeria">
-              <i class="fa-solid fa-magnifying-glass-plus"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- VISOR LIGHTBOX -->
-    <div class="lightbox-overlay" id="lightbox">
-      <button class="lightbox-btn close" id="lb-close">&times;</button>
-      <button class="lightbox-btn prev" id="lb-prev">
-        <i class="fa-solid fa-chevron-left"></i>
-      </button>
-      <button class="lightbox-btn next" id="lb-next">
-        <i class="fa-solid fa-chevron-right"></i>
-      </button>
-      <div class="lightbox-content">
-        <img id="lb-img" src="" alt="Imagen ampliada" />
-        <p id="lb-caption"></p>
-      </div>
-    </div>
-
-    <!-- PIE DE PÁGINA -->
-    <footer>
-      <div class="contenedor footer-content">
-        <div class="direccion">
-          <h4>San Cristóbal de las Casas, Chiapas.</h4>
-          <p>
-            <i class="fa-solid fa-location-dot"></i> Diego de Mazariegos, número
-            88, Colonia Centro.
-          </p>
-          <p>
-            <i class="fa-solid fa-envelope"></i> C.P. 29264 - San Cristóbal de
-            Las Casas, Chiapas
-          </p>
-          <a
-            href="https://wa.me/+529671666622"
-            target="_blank"
-            class="wsp-link"
-          >
-            <i class="fa-brands fa-whatsapp icono"></i> Tel. 967 166 66 22
-          </a>
-        </div>
-        <div class="mapa">
-          <h5>Ubicación en San Cristóbal</h5>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!4v1785523696487!6m8!1m7!1sL_iYdL_dwzNYLKBMkF_2zA!2m2!1d16.73622740967286!2d-92.64554209571803!3f201.0597151847336!4f8.172492509079234!5f0.7820865974627469"
-            width="100%"
-            height="220"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-      </div>
-      <div class="info">
-        <button class="toggle" id="toggle-footer" title="Cambiar tema">
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html" class="active">Galería</a>
+        <a href="contacto.html">Contacto</a>
+        <button class="toggle" id="toggle" title="Cambiar tema">
           <span><i class="fa-solid fa-sun"></i></span>
           <span><i class="fa-solid fa-moon"></i></span>
         </button>
-        <p class="autor">
-          Servicios Legales S.C.L.C. | Desarrollado por
-          <a
-            href="https://krakendev.site"
-            target="_blank"
-            rel="noopener noreferrer"
-            >KRAKEN DEV/</a
-          >
-          &reg;
-        </p>
-      </div>
-    </footer>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Scripts -->
-    <script src="js/gallery.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <!-- BANNER DE LA PÁGINA -->
+  <section class="banner-pagina">
+    <div class="contenedor">
+      <h1>NUESTRO TRABAJO</h1>
+      <p>
+        Conozca nuestras instalaciones, acervo jurídico y trayectoria
+        profesional en imágenes.
+      </p>
+    </div>
+  </section>
+
+  <!-- GRILLA DE GALERÍA -->
+  <section class="seccion-galeria">
+    <div class="contenedor">
+      <div class="grid-galeria">
+        <div class="item-galeria" data-src="imgs/gallery/1-x.jpg" data-caption="Reconocimientos y premios">
+          <img src="imgs/gallery/1-x.jpg" alt="Reconocimientos y premios" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/2.jpg" data-caption="Análisis de expedientes">
+          <img src="imgs/gallery/2.jpg" alt="Análisis de expedientes" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/1.jpg" data-caption="Instalaciones del Despacho">
+          <img src="imgs/gallery/1.jpg" alt="Instalaciones del Despacho" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/3.jpg" data-caption="Preparación Constante">
+          <img src="imgs/gallery/3.jpg" alt="Preparación Constante" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/5.jpg" data-caption="Material Jurídico">
+          <img src="imgs/gallery/5.jpg" alt="Material Jurídico" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/5-x.jpg" data-caption="Nuestros clientes">
+          <img src="imgs/gallery/5-x.jpg" alt="Nuestros clientes" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/docencia.jpg" data-caption="Docencia">
+          <img src="imgs/gallery/docencia.jpg" alt="Docencia" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/palacio.jpg" data-caption="Experiencia en litigios">
+          <img src="imgs/gallery/palacio.jpg" alt="Experiencia en litigios" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+
+        <div class="item-galeria" data-src="imgs/gallery/9.jpg" data-caption="Trabajo en Oficina">
+          <img
+            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Trabajo en Oficina" />
+          <div class="overlay-galeria">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISOR LIGHTBOX -->
+  <div class="lightbox-overlay" id="lightbox">
+    <button class="lightbox-btn close" id="lb-close">&times;</button>
+    <button class="lightbox-btn prev" id="lb-prev">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="lightbox-btn next" id="lb-next">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+    <div class="lightbox-content">
+      <img id="lb-img" src="" alt="Imagen ampliada" />
+      <p id="lb-caption"></p>
+    </div>
+  </div>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="contenedor footer-content">
+      <div class="direccion">
+        <h4>San Cristóbal de las Casas, Chiapas.</h4>
+        <p>
+          <i class="fa-solid fa-location-dot"></i> Diego de Mazariegos, número
+          88, Colonia Centro.
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i> C.P. 29264 - San Cristóbal de
+          Las Casas, Chiapas
+        </p>
+        <a href="https://wa.me/+529671666622" target="_blank" class="wsp-link">
+          <i class="fa-brands fa-whatsapp icono"></i> Tel. 967 166 66 22
+        </a>
+      </div>
+      <div class="mapa">
+        <h5>Ubicación en San Cristóbal</h5>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1785523696487!6m8!1m7!1sL_iYdL_dwzNYLKBMkF_2zA!2m2!1d16.73622740967286!2d-92.64554209571803!3f201.0597151847336!4f8.172492509079234!5f0.7820865974627469"
+          width="100%" height="220" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="info">
+      <button class="toggle" id="toggle-footer" title="Cambiar tema">
+        <span><i class="fa-solid fa-sun"></i></span>
+        <span><i class="fa-solid fa-moon"></i></span>
+      </button>
+      <p class="autor">
+        Servicios Legales S.C.L.C. | Desarrollado por
+        <a href="https://krakendev.site" target="_blank" rel="noopener noreferrer">KRAKEN DEV/</a>
+        &reg;
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/gallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

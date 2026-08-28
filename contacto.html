@@ -1,237 +1,189 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Contacto - Servicios Legales S.C.L.C. Agenda una cita o consulta jurídica."
-    />
-    <title>Contacto | Servicios Legales S.C.L.C.</title>
 
-    <link rel="shortcut icon" href="imgs/favicon/icon.ico" />
-    <link rel="stylesheet" href="estilos/general.css" />
-    <link rel="stylesheet" href="estilos/contacto.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contacto - Servicios Legales S.C.L.C. Agenda una cita o consulta jurídica." />
+  <title>Contacto | Servicios Legales S.C.L.C.</title>
 
-    <!-- Tipografías -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="shortcut icon" href="imgs/favicon/icon.ico" />
+  <link rel="stylesheet" href="estilos/general.css" />
+  <link rel="stylesheet" href="estilos/contacto.css" />
 
-    <!-- FontAwesome 6 -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- BOTÓN FLOTANTE WHATSAPP -->
-    <a
-      href="https://wa.me/+529671666622"
-      class="wsp-float"
-      target="_blank"
-      title="Consulta Legal Vía WhatsApp"
-    >
-      <i class="fa-brands fa-whatsapp"></i>
-    </a>
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
 
-    <!-- HEADER / CABECERA -->
-    <header>
-      <div class="contenedor">
-        <div class="logo">
-          <img
-            src="imgs/logo.png"
-            alt="Servicios Legales SCLC Logo"
-            id="negro"
-          />
-          <img
-            src="imgs/logo-wh.png"
-            alt="Servicios Legales SCLC Logo"
-            id="blanco"
-          />
-        </div>
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5Z5XSEJZM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-        <input type="checkbox" id="burger" />
-        <label class="icon-menu" for="burger"
-          ><i class="fa-solid fa-bars"></i
-        ></label>
+    gtag('config', 'G-B5Z5XSEJZM');
+  </script>
+</head>
 
-        <nav class="menu">
-          <a href="index.html">Inicio</a>
-          <a href="servicios.html">Servicios</a>
-          <a href="galeria.html">Galería</a>
-          <a href="contacto.html" class="active">Contacto</a>
-          <button class="toggle" id="toggle" title="Cambiar tema">
-            <span><i class="fa-solid fa-sun"></i></span>
-            <span><i class="fa-solid fa-moon"></i></span>
-          </button>
-        </nav>
+<body>
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a href="https://wa.me/+529671666622" class="wsp-float" target="_blank" title="Consulta Legal Vía WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- HEADER / CABECERA -->
+  <header>
+    <div class="contenedor">
+      <div class="logo">
+        <img src="imgs/logo.png" alt="Servicios Legales SCLC Logo" id="negro" />
+        <img src="imgs/logo-wh.png" alt="Servicios Legales SCLC Logo" id="blanco" />
       </div>
-    </header>
 
-    <!-- BANNER DE LA PÁGINA -->
-    <section class="banner-pagina">
-      <div class="contenedor">
-        <h1>CONTACTE CON NOSOTROS</h1>
-        <p>
-          Estamos listos para ofrecerle asesoría jurídica profesional y
-          oportuna.
-        </p>
-      </div>
-    </section>
+      <input type="checkbox" id="burger" />
+      <label class="icon-menu" for="burger"><i class="fa-solid fa-bars"></i></label>
 
-    <!-- SECCIÓN CONTACTO -->
-    <section class="seccion-contacto">
-      <div class="contenedor">
-        <div class="grid-contacto">
-          <!-- Tarjetas de Información -->
-          <div class="info-contacto-cards">
-            <div class="card-info-item">
-              <div class="icon-box">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <div>
-                <h3>Ubicación</h3>
-                <p>
-                  Calzada México, No. 75, Barrio de Fátima.<br />C.P. 29264, San
-                  Cristóbal de Las Casas, Chiapas.
-                </p>
-              </div>
-            </div>
-
-            <div class="card-info-item">
-              <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
-              <div>
-                <h3>Teléfono & WhatsApp</h3>
-                <p>
-                  <a href="https://wa.me/+529671666622" target="_blank"
-                    >+52 967 166 66 22</a
-                  >
-                </p>
-              </div>
-            </div>
-
-            <div class="card-info-item">
-              <div class="icon-box"><i class="fa-solid fa-clock"></i></div>
-              <div>
-                <h3>Horarios de Atención</h3>
-                <p>
-                  Lunes a Viernes: 9:00 AM - 6:00 PM<br />Sábados: Con previa
-                  cita
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Formulario de Contacto -->
-          <div class="form-container">
-            <form id="form-contacto" action="#" method="POST">
-              <h3>Envíenos un mensaje</h3>
-
-              <div class="input-group">
-                <input
-                  type="text"
-                  id="nombre"
-                  name="nombre"
-                  placeholder="Nombre completo"
-                  required
-                />
-              </div>
-
-              <div class="input-group">
-                <input
-                  type="email"
-                  id="correo"
-                  name="correo"
-                  placeholder="Correo electrónico"
-                  required
-                />
-              </div>
-
-              <div class="input-group">
-                <input
-                  type="tel"
-                  id="telefono"
-                  name="telefono"
-                  placeholder="Número de teléfono"
-                />
-              </div>
-
-              <div class="input-group">
-                <textarea
-                  id="mensaje"
-                  name="mensaje"
-                  rows="5"
-                  placeholder="Escriba aquí su mensaje o consulta..."
-                  required
-                ></textarea>
-              </div>
-
-              <button type="submit" class="btn-primary btn-submit">
-                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PIE DE PÁGINA -->
-    <footer>
-      <div class="contenedor footer-content">
-        <div class="direccion">
-          <h4>San Cristóbal de las Casas, Chiapas.</h4>
-          <p>
-            <i class="fa-solid fa-location-dot"></i> Diego de Mazariegos, número
-            88, Colonia Centro.
-          </p>
-          <p>
-            <i class="fa-solid fa-envelope"></i> C.P. 29264 - San Cristóbal de
-            Las Casas, Chiapas
-          </p>
-          <a
-            href="https://wa.me/+529671666622"
-            target="_blank"
-            class="wsp-link"
-          >
-            <i class="fa-brands fa-whatsapp icono"></i> Tel. 967 166 66 22
-          </a>
-        </div>
-        <div class="mapa">
-          <h5>Ubicación en San Cristóbal</h5>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!4v1785523696487!6m8!1m7!1sL_iYdL_dwzNYLKBMkF_2zA!2m2!1d16.73622740967286!2d-92.64554209571803!3f201.0597151847336!4f8.172492509079234!5f0.7820865974627469"
-            width="100%"
-            height="220"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-      </div>
-      <div class="info">
-        <button class="toggle" id="toggle-footer" title="Cambiar tema">
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html" class="active">Contacto</a>
+        <button class="toggle" id="toggle" title="Cambiar tema">
           <span><i class="fa-solid fa-sun"></i></span>
           <span><i class="fa-solid fa-moon"></i></span>
         </button>
-        <p class="autor">
-          Servicios Legales S.C.L.C. | Desarrollado por
-          <a
-            href="https://krakendev.site"
-            target="_blank"
-            rel="noopener noreferrer"
-            >KRAKEN DEV/</a
-          >
-          &reg;
-        </p>
-      </div>
-    </footer>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Scripts -->
-    <script src="js/main.js"></script>
-    <script src="js/form.js"></script>
-  </body>
+  <!-- BANNER DE LA PÁGINA -->
+  <section class="banner-pagina">
+    <div class="contenedor">
+      <h1>CONTACTE CON NOSOTROS</h1>
+      <p>
+        Estamos listos para ofrecerle asesoría jurídica profesional y
+        oportuna.
+      </p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section class="seccion-contacto">
+    <div class="contenedor">
+      <div class="grid-contacto">
+        <!-- Tarjetas de Información -->
+        <div class="info-contacto-cards">
+          <div class="card-info-item">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h3>Ubicación</h3>
+              <p>
+                Calzada México, No. 75, Barrio de Fátima.<br />C.P. 29264, San
+                Cristóbal de Las Casas, Chiapas.
+              </p>
+            </div>
+          </div>
+
+          <div class="card-info-item">
+            <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <h3>Teléfono & WhatsApp</h3>
+              <p>
+                <a href="https://wa.me/+529671666622" target="_blank">+52 967 166 66 22</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card-info-item">
+            <div class="icon-box"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h3>Horarios de Atención</h3>
+              <p>
+                Lunes a Viernes: 9:00 AM - 6:00 PM<br />Sábados: Con previa
+                cita
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario de Contacto -->
+        <div class="form-container">
+          <form id="form-contacto" action="#" method="POST">
+            <h3>Envíenos un mensaje</h3>
+
+            <div class="input-group">
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required />
+            </div>
+
+            <div class="input-group">
+              <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required />
+            </div>
+
+            <div class="input-group">
+              <input type="tel" id="telefono" name="telefono" placeholder="Número de teléfono" />
+            </div>
+
+            <div class="input-group">
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escriba aquí su mensaje o consulta..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary btn-submit">
+              Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="contenedor footer-content">
+      <div class="direccion">
+        <h4>San Cristóbal de las Casas, Chiapas.</h4>
+        <p>
+          <i class="fa-solid fa-location-dot"></i> Diego de Mazariegos, número
+          88, Colonia Centro.
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i> C.P. 29264 - San Cristóbal de
+          Las Casas, Chiapas
+        </p>
+        <a href="https://wa.me/+529671666622" target="_blank" class="wsp-link">
+          <i class="fa-brands fa-whatsapp icono"></i> Tel. 967 166 66 22
+        </a>
+      </div>
+      <div class="mapa">
+        <h5>Ubicación en San Cristóbal</h5>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1785523696487!6m8!1m7!1sL_iYdL_dwzNYLKBMkF_2zA!2m2!1d16.73622740967286!2d-92.64554209571803!3f201.0597151847336!4f8.172492509079234!5f0.7820865974627469"
+          width="100%" height="220" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="info">
+      <button class="toggle" id="toggle-footer" title="Cambiar tema">
+        <span><i class="fa-solid fa-sun"></i></span>
+        <span><i class="fa-solid fa-moon"></i></span>
+      </button>
+      <p class="autor">
+        Servicios Legales S.C.L.C. | Desarrollado por
+        <a href="https://krakendev.site" target="_blank" rel="noopener noreferrer">KRAKEN DEV/</a>
+        &reg;
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+</body>
+
 </html>
