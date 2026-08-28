@@ -1,224 +1,387 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SERVICIOS | SERVICIOS LEGALES S.C.L.C.</title>
-	<link rel="shortcut icon" href="imgs/favicon/icon.ico">
-	<link rel="stylesheet" href="estilos/normalize.css">
-	<link rel="stylesheet" href="estilos/header.css">
-	<link rel="stylesheet" href="estilos/fontello.css">
-	<link rel="stylesheet" href="estilos/footer.css">
-	<link rel="stylesheet" href="estilos/main_servicios.css">
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/bb93eae8c3.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Servicios Legales S.C.L.C. - Áreas de práctica y servicios jurídicos en San Cristóbal de Las Casas."
+    />
+    <title>Servicios | Servicios Legales S.C.L.C.</title>
 
-<!-- Esto es la CABEZA de la página -->
+    <link rel="shortcut icon" href="imgs/favicon/icon.ico" />
+    <link rel="stylesheet" href="estilos/general.css" />
+    <link rel="stylesheet" href="estilos/servicios.css" />
 
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-	<header>
-		<div class="contenedor">
-			<div class="logo">
-				<img src="imgs/logo.png" alt="" id="negro">
-				<img src="imgs/logo-wh.png" alt="" id="blanco">
-			</div>
-			<input type="checkbox" id="burger">
-			<label class="icon-menu" for="burger"></label>
-			<nav class="menu">
-				<a href="index.html">Inicio</a>
-				<a href="servicios.html">Servicios</a>
-				<a href="galeria.html">Galería</a>
-				<!-- <a href="blog.html">Blog</a> -->
-				<a href="contacto.html">Contacto</a>
-				<button class="toggle" id="toggle">
-					<span><i class="fas fa-sun"></i></span>
-					<span><i class="fas fa-moon"></i></span>
-				</button>
-			</nav>
-		<!--<div class="contenedor">
-			<div class="logo"><img src="imgs/logo.png" alt=""></div>
-			<div class="menu">
-				<nav>
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="servicios.html">Servicios</a></li>
-						<li><a href="galeria.html">Galería</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
-					</ul>
-				</nav>
-			</div>-->
-		</div>
-	</header>
+    <!-- FontAwesome 6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- BOTÓN FLOTANTE WHATSAPP -->
+    <a
+      href="https://wa.me/+529671523643"
+      class="wsp-float"
+      target="_blank"
+      title="Consulta Legal Vía WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
-	<main>
-		<div id="fondo" class="contenedor">
-			<div class="banner">
-				<h1>SERVICIOS LEGALES</h1>
-				<!--<div class="boton"><a href="https://wa.me/+529671523643" target="_blank">hablar con un abogado<i class="icono fab fa-whatsapp"></i></a></div>-->
-			</div>
-		</div>
-		<section>
-			<div class="contenedor" id="contenido">
-				<div class="servicios">
-					<div class="servicio uno">
-						<div class="info">
-							<a href="servicio_amparo.html"><h2>Amparos</h2>
-							<p>El amparo es un medio de control constitucional con el que cuentan los ciudadanos para combatir las decisiones de la autoridad.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/amparo.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
+    <!-- HEADER / CABECERA -->
+    <header>
+      <div class="contenedor">
+        <div class="logo">
+          <img
+            src="imgs/logo.png"
+            alt="Servicios Legales SCLC Logo"
+            id="negro"
+          />
+          <img
+            src="imgs/logo-wh.png"
+            alt="Servicios Legales SCLC Logo"
+            id="blanco"
+          />
+        </div>
 
-					<div class="servicio dos">
-						<div class="info">
-							<a href="servicio_mercantil.html"><h2>Juicios Mercantiles</h2>
-							<p>Para resolver y decidir de aquellas controversias que deriven de actos comerciales, según el Código de Comercio.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/dinero.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
+        <input type="checkbox" id="burger" />
+        <label class="icon-menu" for="burger"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
 
-					<div class="servicio tres">
-						<div class="info">
-							<a href="servicio_penal.html"><h2>Servicios Penales</h2>
-							<p>Encargados de obtener resultados favorables en cuanto a la reparación del daño por conductas delictivas, y así mismo como defensa de los que son acusados.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/esposas.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
+        <nav class="menu">
+          <a href="index.html">Inicio</a>
+          <a href="servicios.html" class="active">Servicios</a>
+          <a href="galeria.html">Galería</a>
+          <a href="contacto.html">Contacto</a>
+          <button class="toggle" id="toggle" title="Cambiar tema">
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-moon"></i></span>
+          </button>
+        </nav>
+      </div>
+    </header>
 
+    <!-- BANNER DE LA PÁGINA -->
+    <section class="banner-pagina">
+      <div class="contenedor">
+        <h1>SERVICIOS LEGALES</h1>
+        <p>
+          Soluciones jurídicas integrales respaldadas por la experiencia y el
+          compromiso profesional.
+        </p>
+      </div>
+    </section>
 
-					<div class="servicio cuatro">
-						<div class="info">
-							<a href="servicio_familiar.html"><h2>Familiar</h2>
-							<p>Ayudando a nuestros clientes en la resolución de controversias del orden familiar, tales como alimentos y divorcios.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/alimentos.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
+    <!-- GRILLA DE SERVICIOS -->
+    <section class="seccion-catalogo-servicios">
+      <div class="contenedor">
+        <div class="grid-servicios-catalogo">
+          <!-- Servicio 1: Amparos -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Juicios de Amparo"
+            data-icono="fa-shield-halved"
+            data-img="imgs/servs/amparo.jpg"
+            data-desc="El juicio de amparo es la máxima herramienta de protección constitucional en México. Nos especializamos en la interposición de amparos directos e indirectos contra actos u omisiones de autoridades que vulneren sus derechos fundamentales o garantías individuales."
+          >
+            <div class="card-img-wrap">
+              <img src="imgs/servs/amparo.jpg" alt="Juicios de Amparo" />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3>Amparos</h3>
+              <p>
+                Medio de control constitucional para combatir decisiones y actos
+                arbitrarios de autoridades.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
 
-					<div class="servicio cinco">
-						<div class="info">
-							<a href="servicio_sucesorio.html"><h2>Sucesorios</h2>
-							<p>Al dejar un testamento, se garantizan la tranquilidad y el orden familiar, así como la buena administración de los bienes.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/sucesorio.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
+          <!-- Servicio 2: Juicios Mercantiles -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Juicios Mercantiles"
+            data-icono="fa-file-invoice-dollar"
+            data-img="imgs/servs/dinero.jpg"
+            data-desc="Atendemos disputas derivadas de actos comerciales y transacciones de negocios. Recuperación judicial y extrajudicial de cartera vencida, cobro de pagarés, cheques, letras de cambio y litigios por incumplimiento de contratos mercantiles."
+          >
+            <div class="card-img-wrap">
+              <img src="imgs/servs/pagar.jpg" alt="Juicios Mercantiles" />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+              </div>
+              <h3>Juicios Mercantiles</h3>
+              <p>
+                Resolución y litigio en controversias comerciales, cobro de
+                pagarés y contratos mercantiles.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
 
+          <!-- Servicio 3: Servicios Penales -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Defensa y Litigio Penal"
+            data-icono="fa-gavel"
+            data-img="imgs/servs/detenido.jpeg"
+            data-desc="Representación legal en el Sistema Penal Acusatorio. Brindamos defensa técnica integral a imputados y asesoría jurídica victimal en denuncias, querellas, audiencias iniciales, juicios orales y reparación del daño."
+          >
+            <div class="card-img-wrap">
+              <img src="imgs/servs/detenido.jpeg" alt="Servicios Penales" />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-gavel"></i>
+              </div>
+              <h3>Servicios Penales</h3>
+              <p>
+                Defensa penal estratégica y representación técnica para víctimas
+                o acusados.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
 
-					<div class="servicio seis">
-						<div class="info">
-							<a href="servicio_contrato.html"><h2>Contratos</h2>
-							<p>Otorgamos respaldo al momento de crear nuevos compromisos, ya sean por arrendamiento, por compraventa y demás. Gracias a los contratos.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/contrato.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
+          <!-- Servicio 4: Familiar -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Derecho Familiar"
+            data-icono="fa-people-roof"
+            data-img="imgs/servs/divorcio.jpg"
+            data-desc="Protegemos el bienestar de su entorno familiar con un enfoque sensible y profesional. Tramitación de divorcios (incausados o de mutuo acuerdo), fijación de pensión alimenticia, guarda y custodia, régimen de visitas y patria potestad."
+          >
+            <div class="card-img-wrap">
+              <img src="imgs/servs/divorcio.jpg" alt="Derecho Familiar" />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-people-roof"></i>
+              </div>
+              <h3>Derecho Familiar</h3>
+              <p>
+                Atención a controversias del orden familiar como divorcios,
+                pensiones y custodia.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
 
+          <!-- Servicio 5: Sucesorios -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Juicios Sucesorios"
+            data-icono="fa-signature"
+            data-img="imgs/servs/sucesorio.jpg"
+            data-desc="Asesoramos la adjudicación regular de los bienes patrimoniales. Gestionamos juicios testamentarios (cuando existe testamento) e intestamentarios (sin testamento), protegiendo la voluntad y derechos de los herederos legatarios."
+          >
+            <div class="card-img-wrap">
+              <img src="imgs/servs/sucesorio.jpg" alt="Juicios Sucesorios" />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-signature"></i>
+              </div>
+              <h3>Juicios Sucesorios</h3>
+              <p>
+                Gestión de testamentos, juicios intestados y radicación de
+                herencias y sucesiones.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
 
-					<div class="servicio siete">
-						<div class="info">
-							<a href="servicio_propiedad.html"><h2>Propiedad Intelecual</h2>
-							<p>Al registrar tu marca, tu imagen o el nombre de tu empresa, siempre es bueno que cuentes con nuestro respaldo.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/intelectual.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
+          <!-- Servicio 6: Contratos -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Derecho Contractual"
+            data-icono="fa-file-contract"
+            data-img="imgs/servs/contrato.jpg"
+            data-desc="Diseño, redacción y dictaminación de instrumentos jurídicos a la medida para prevenir futuros litigios. Contratos de arrendamiento, compraventa de bienes inmuebles, prestación de servicios y convenios particulares."
+          >
+            <div class="card-img-wrap">
+              <img src="imgs/servs/contrato.jpg" alt="Derecho Contractual" />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-file-contract"></i>
+              </div>
+              <h3>Contratos</h3>
+              <p>
+                Elaboración y revisión legal de compromisos contractuales de
+                arrendamiento y compraventa.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
 
+          <!-- Servicio 7: Propiedad Intelectual -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Propiedad Intelectual"
+            data-icono="fa-copyright"
+            data-img="imgs/servs/intelectual.jpg"
+            data-desc="Protegemos sus activos intangibles y de marca. Registro de marcas ante el IMPI, avisos comerciales, nombres comerciales, derechos de autor y defensa contra el uso no autorizado de su distintivo empresarial."
+          >
+            <div class="card-img-wrap">
+              <img
+                src="imgs/servs/intelectual.jpg"
+                alt="Propiedad Intelectual"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-copyright"></i>
+              </div>
+              <h3>Propiedad Intelectual</h3>
+              <p>
+                Registro de marcas, derechos de autor y protección de imagen
+                empresarial.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
 
-					<div class="servicio ocho">
-						<div class="info">
-							<a href="servicio_general.html"><h2>Asesoría En General</h2>
-							<p>Lo más importante de todo, es que no te quedes con dudas y te acerques a nosotros a preguntar; seguramente podremos resolver tu caso.</p>
-						</div>
-						<div class="click">
-							
-								<div class="miniban">
-									<img src="imgs/asesor.jpg" alt="">
-								</div>
-								<p>saber más</p>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
+          <!-- Servicio 8: Asesoría General -->
+          <article
+            class="card-servicio-completa"
+            data-titulo="Asesoría Jurídica Integral"
+            data-icono="fa-comments"
+            data-img="imgs/servs/justicia.jpg"
+            data-desc="Consultoría personalizada para evaluar la viabilidad de acciones legales antes de iniciar un procedimiento judicial. Analizamos la documentación del cliente y planteamos la estrategia más viable y económica."
+          >
+            <div class="card-img-wrap">
+              <img
+                src="imgs/servs/justicia.jpg"
+                alt="Asesoría Jurídica Integral"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-header-icon">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+              <h3>Asesoría en General</h3>
+              <p>
+                Orientación jurídica personalizada y análisis estratégico de
+                casos particulares.
+              </p>
+              <button class="btn-saber-mas btn-modal">
+                Saber más <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-	<footer>
-		<div class="contenedor">
-			<div class="direccion">
-				<h4>San Cristóbal de las Casas, Chiapas.</h4>
-				<p>Calzada México, número 75, Barrio de Fátima.</p>
-				<p>CP. 29264 - San Cristóbal De Las Casas, Chiapas</p>
-				<a href="https://wa.me/+529671523643" target="_blank">Tel. 967 152 36 43<i class="icono fab fa-whatsapp"></i></a>
-			</div>
-			<div class="mapa">
-				<h5>Ubicación</h5>
-				<iframe src="https://www.google.com/maps/embed?pb=!4v1683903726823!6m8!1m7!1s-QxSwL-DjPNZGUEaTSMNCQ!2m2!1d16.72825629806253!2d-92.66549635976382!3f142.8578903578858!4f-1.2672408111320976!5f0.7820865974627469" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-				<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d955.2550330196235!2d-92.63574117083154!3d16.725847283646427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed45416b2097a7%3A0x1a2d76875d0d42cc!2sde%20las%20Americas%204B%2C%20Barrio%20de%20San%20Diego%2C%2029270%20San%20Crist%C3%B3bal%20de%20las%20Casas%2C%20Chis.!5e0!3m2!1ses-419!2smx!4v1623201860382!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-			</div>
-		</div>
-		<div class="info">
-			<button class="toggle" id="toggle">
-				<span><i class="fas fa-sun"></i></span>
-				<span><i class="fas fa-moon"></i></span>
-			</button>
-			<p class="autor">Servicios Legales S.C.L.C. | Todos los derechos reservados &reg;</p>
-		</div>
-	</footer>
-	<script src="js/main.js"></script>
-</body>
+    <!-- ESTRUCTURA DEL MODAL REUTILIZABLE CON IMAGEN -->
+    <div class="modal-overlay" id="modal-servicio">
+      <div class="modal-box">
+        <button class="modal-cerrar" id="modal-close">&times;</button>
+        <div class="modal-banner-img">
+          <img id="modal-img" src="" alt="Servicio" />
+        </div>
+        <div class="modal-content-wrap">
+          <div class="modal-header">
+            <i class="fa-solid" id="modal-icon"></i>
+            <h3 id="modal-title">Título Servicio</h3>
+          </div>
+          <div class="modal-body">
+            <p id="modal-description">Descripción detallada...</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" id="modal-wsp-btn" target="_blank" class="btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Consultar este Caso por
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+      <div class="contenedor footer-content">
+        <div class="direccion">
+          <h4>San Cristóbal de las Casas, Chiapas.</h4>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> Diego de Mazariegos, número
+            88, Colonia Centro.
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i> C.P. 29264 - San Cristóbal de
+            Las Casas, Chiapas
+          </p>
+          <a
+            href="https://wa.me/+529671523643"
+            target="_blank"
+            class="wsp-link"
+          >
+            <i class="fa-brands fa-whatsapp icono"></i> Tel. 967 152 36 43
+          </a>
+        </div>
+        <div class="mapa">
+          <h5>Ubicación en San Cristóbal</h5>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1785523696487!6m8!1m7!1sL_iYdL_dwzNYLKBMkF_2zA!2m2!1d16.73622740967286!2d-92.64554209571803!3f201.0597151847336!4f8.172492509079234!5f0.7820865974627469"
+            width="100%"
+            height="220"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <div class="info">
+        <button class="toggle" id="toggle-footer" title="Cambiar tema">
+          <span><i class="fa-solid fa-sun"></i></span>
+          <span><i class="fa-solid fa-moon"></i></span>
+        </button>
+        <p class="autor">
+          Servicios Legales S.C.L.C. | Desarrollado por
+          <a
+            href="https://krakendev.site"
+            target="_blank"
+            rel="noopener noreferrer"
+            >KRAKEN DEV/</a
+          >
+          &reg;
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/services.js"></script>
+  </body>
 </html>

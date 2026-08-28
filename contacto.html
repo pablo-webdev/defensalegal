@@ -1,117 +1,237 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CONTACTO | SERVICIOS LEGALES S.C.L.C.</title>
-	<link rel="shortcut icon" href="imgs/favicon/icon.ico">
-	<link rel="stylesheet" href="estilos/normalize.css">
-	<link rel="stylesheet" href="estilos/header.css">
-	<link rel="stylesheet" href="estilos/fontello.css">
-	<link rel="stylesheet" href="estilos/footer.css">
-	<link rel="stylesheet" href="estilos/main_contacto.css">
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/bb93eae8c3.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contacto - Servicios Legales S.C.L.C. Agenda una cita o consulta jurídica."
+    />
+    <title>Contacto | Servicios Legales S.C.L.C.</title>
 
-<!-- Esto es la CABEZA de la página -->
+    <link rel="shortcut icon" href="imgs/favicon/icon.ico" />
+    <link rel="stylesheet" href="estilos/general.css" />
+    <link rel="stylesheet" href="estilos/contacto.css" />
 
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-	<header>
-		<div class="contenedor">
-			<div class="logo">
-				<img src="imgs/logo.png" alt="" id="negro">
-				<img src="imgs/logo-wh.png" alt="" id="blanco">
-			</div>
-			<input type="checkbox" id="burger">
-			<label class="icon-menu" for="burger"></label>
-			<nav class="menu">
-				<!--<label id="daynnight">
-					<input type="checkbox">
-					<span class="check"></span>
-				</label>    primer botón día/noche -->
-				<a href="index.html">Inicio</a>
-				<a href="servicios.html">Servicios</a>
-				<a href="galeria.html">Galería</a>
-				<!-- <a href="blog.html">Blog</a> -->
-				<a href="contacto.html">Contacto</a>
-				<button class="toggle" id="toggle">
-					<span><i class="fas fa-sun"></i></span>
-					<span><i class="fas fa-moon"></i></span>
-				</button>
-			</nav>
-			
-			
-			<!--<div class="logo"><img src="imgs/logo.png" alt=""></div>
-			<div class="menu">
-				<nav>
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="servicios.html">Servicios</a></li>
-						<li><a href="galeria.html">Galería</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
-					</ul>
-				</nav>
-			</div>-->
-		</div>
-	</header>
+    <!-- FontAwesome 6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- BOTÓN FLOTANTE WHATSAPP -->
+    <a
+      href="https://wa.me/+529671523643"
+      class="wsp-float"
+      target="_blank"
+      title="Consulta Legal Vía WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
-	
-	<main>
-		<div id="fondo" class="contenedor">
-			<div class="banner">
-				<h1>CONTACTE CON NOSOTROS</h1>
-				<!--<div class="boton"><a href="https://wa.me/+529671523643" target="_blank">hablar con un abogado<i class="icono fab fa-whatsapp"></i></a></div>-->
-			</div>
-		</div>	
-	</main>
-	<section>
-		<div class="contenedor">
-			<form id="formulario" action="php/correo.php" method="post">
-				<input type="text" name="nombre" placeholder="Nombre" required>
-				<input type="text" name="correo" placeholder="Correo" required>
-				<input type="text" name="telefono" placeholder="telefono" required>
-				<textarea name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
-				<input type="submit" value="ENVIAR" id="boton">
-			</form>
-			<!--<div class="design">
-				<a href="">a</a>
-				<a href="">@</a>
-			</div>-->
-		</div>
-	</section>
+    <!-- HEADER / CABECERA -->
+    <header>
+      <div class="contenedor">
+        <div class="logo">
+          <img
+            src="imgs/logo.png"
+            alt="Servicios Legales SCLC Logo"
+            id="negro"
+          />
+          <img
+            src="imgs/logo-wh.png"
+            alt="Servicios Legales SCLC Logo"
+            id="blanco"
+          />
+        </div>
 
-	<footer>
-		<div class="contenedor">
-			<div class="direccion">
-				<h4>San Cristóbal de las Casas, Chiapas.</h4>
-				<p>Calzada México, número 75, Barrio de Fátima.</p>
-				<p>CP. 29264 - San Cristóbal De Las Casas, Chiapas</p>
-				<a href="https://wa.me/+529671523643" target="_blank">Tel. 967 152 36 43<i class="icono fab fa-whatsapp"></i></a>
-			</div>
-			<div class="mapa">
-				<h5>Ubicación</h5>
-				<iframe src="https://www.google.com/maps/embed?pb=!4v1683903726823!6m8!1m7!1s-QxSwL-DjPNZGUEaTSMNCQ!2m2!1d16.72825629806253!2d-92.66549635976382!3f142.8578903578858!4f-1.2672408111320976!5f0.7820865974627469" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-				<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d955.2550330196235!2d-92.63574117083154!3d16.725847283646427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed45416b2097a7%3A0x1a2d76875d0d42cc!2sde%20las%20Americas%204B%2C%20Barrio%20de%20San%20Diego%2C%2029270%20San%20Crist%C3%B3bal%20de%20las%20Casas%2C%20Chis.!5e0!3m2!1ses-419!2smx!4v1623201860382!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-			</div>
-		</div>
-		<div class="info">
-			<button class="toggle" id="toggle">
-				<span><i class="fas fa-sun"></i></span>
-				<span><i class="fas fa-moon"></i></span>
-			</button>
-			<p class="autor">Servicios Legales S.C.L.C. | Todos los derechos reservados &reg;</p>
-		</div>
-	</footer>
+        <input type="checkbox" id="burger" />
+        <label class="icon-menu" for="burger"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
 
-	<script src="js/main.js"></script>
-</body>
+        <nav class="menu">
+          <a href="index.html">Inicio</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="galeria.html">Galería</a>
+          <a href="contacto.html" class="active">Contacto</a>
+          <button class="toggle" id="toggle" title="Cambiar tema">
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-moon"></i></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- BANNER DE LA PÁGINA -->
+    <section class="banner-pagina">
+      <div class="contenedor">
+        <h1>CONTACTE CON NOSOTROS</h1>
+        <p>
+          Estamos listos para ofrecerle asesoría jurídica profesional y
+          oportuna.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section class="seccion-contacto">
+      <div class="contenedor">
+        <div class="grid-contacto">
+          <!-- Tarjetas de Información -->
+          <div class="info-contacto-cards">
+            <div class="card-info-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h3>Ubicación</h3>
+                <p>
+                  Calzada México, No. 75, Barrio de Fátima.<br />C.P. 29264, San
+                  Cristóbal de Las Casas, Chiapas.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-info-item">
+              <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <h3>Teléfono & WhatsApp</h3>
+                <p>
+                  <a href="https://wa.me/+529671523643" target="_blank"
+                    >+52 967 152 36 43</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="card-info-item">
+              <div class="icon-box"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <h3>Horarios de Atención</h3>
+                <p>
+                  Lunes a Viernes: 9:00 AM - 6:00 PM<br />Sábados: Con previa
+                  cita
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulario de Contacto -->
+          <div class="form-container">
+            <form id="form-contacto" action="#" method="POST">
+              <h3>Envíenos un mensaje</h3>
+
+              <div class="input-group">
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Nombre completo"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="email"
+                  id="correo"
+                  name="correo"
+                  placeholder="Correo electrónico"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="tel"
+                  id="telefono"
+                  name="telefono"
+                  placeholder="Número de teléfono"
+                />
+              </div>
+
+              <div class="input-group">
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  rows="5"
+                  placeholder="Escriba aquí su mensaje o consulta..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary btn-submit">
+                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+      <div class="contenedor footer-content">
+        <div class="direccion">
+          <h4>San Cristóbal de las Casas, Chiapas.</h4>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> Diego de Mazariegos, número
+            88, Colonia Centro.
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i> C.P. 29264 - San Cristóbal de
+            Las Casas, Chiapas
+          </p>
+          <a
+            href="https://wa.me/+529671523643"
+            target="_blank"
+            class="wsp-link"
+          >
+            <i class="fa-brands fa-whatsapp icono"></i> Tel. 967 152 36 43
+          </a>
+        </div>
+        <div class="mapa">
+          <h5>Ubicación en San Cristóbal</h5>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1785523696487!6m8!1m7!1sL_iYdL_dwzNYLKBMkF_2zA!2m2!1d16.73622740967286!2d-92.64554209571803!3f201.0597151847336!4f8.172492509079234!5f0.7820865974627469"
+            width="100%"
+            height="220"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <div class="info">
+        <button class="toggle" id="toggle-footer" title="Cambiar tema">
+          <span><i class="fa-solid fa-sun"></i></span>
+          <span><i class="fa-solid fa-moon"></i></span>
+        </button>
+        <p class="autor">
+          Servicios Legales S.C.L.C. | Desarrollado por
+          <a
+            href="https://krakendev.site"
+            target="_blank"
+            rel="noopener noreferrer"
+            >KRAKEN DEV/</a
+          >
+          &reg;
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
+  </body>
 </html>

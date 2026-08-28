@@ -1,22 +1,38 @@
-const toggle = document.querySelector('#toggle');
+// MODO DAY N NIGHT
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtns = document.querySelectorAll(".toggle");
+  const body = document.body;
 
-toggle.addEventListener('click', () =>{
-    document.body.classList.toggle('dark');
-    toggle.classList.toggle('active');
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "light") {
+    body.classList.add("light");
+  }
 
-    //Local Storage
-    if(document.body.classList.contains('dark')){
-        localStorage.setItem('dark-mode', 'true');
-    } else {
-        localStorage.setItem('dark-mode', 'false');
-    }
-})
+  toggleBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      body.classList.toggle("light");
+      if (body.classList.contains("light")) {
+        localStorage.setItem("theme", "light");
+      } else {
+        localStorage.setItem("theme", "dark");
+      }
+    });
+  });
+});
 
-// Comprobación del modo actual
-if(localStorage.getItem('dark-mode') === 'true'){
-    document.body.classList.add('dark');
-    toggle.classList.add('active'); }
-    else {
-        document.body.classList.remove('dark');
-        toggle.classList.remove('active');
-    }
+// TEXTO ANIMADO
+document.addEventListener("DOMContentLoaded", () => {
+  if (document.querySelector(".typed")) {
+    new Typed(".typed", {
+      strings: [
+        "Una solución legal.",
+        "Asesoría especializada.",
+        "Representación profesional.",
+      ],
+      typeSpeed: 60,
+      backSpeed: 40,
+      backDelay: 2000,
+      loop: true,
+    });
+  }
+});
