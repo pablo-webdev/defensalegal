@@ -20,7 +20,7 @@ if (formContacto) {
       `*Mensaje:* ${mensaje}`;
 
     // Abrir WhatsApp con la información prellenada
-    window.open(`https://wa.me/+529671523643?text=${textoWsp}`, "_blank");
+    window.open(`https://wa.me/+529671666622?text=${textoWsp}`, "_blank");
     formContacto.reset();
   });
 }

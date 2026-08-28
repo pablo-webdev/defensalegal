@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const mensajeWsp = encodeURIComponent(
           `Hola, requiero información y asesoría sobre: ${titulo}`,
         );
-        modalWspBtn.href = `https://wa.me/+529671523643?text=${mensajeWsp}`;
+        modalWspBtn.href = `https://wa.me/+529671666622?text=${mensajeWsp}`;
 
         modal.classList.add("active");
       });
